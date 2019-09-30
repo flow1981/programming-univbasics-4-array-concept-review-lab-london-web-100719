@@ -11,12 +11,11 @@ end
 
 def find_max_value(array)
   
-  max=0;
+  max=;
   
   array.length.times { |index|
   if array[index] > max
     max=array[index]
-    puts max
   end
   }
   return max
